@@ -1,4 +1,4 @@
-    // Initialize Lucide Icons
+ // Initialize Lucide Icons
         lucide.createIcons();
 
         // Very minimal Modal Logic
@@ -24,3 +24,4 @@
         modal.addEventListener('click', (e) => {
             if (e.target === modal) closeModal();
         });
+
